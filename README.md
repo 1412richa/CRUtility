@@ -24,3 +24,8 @@ Accept "fair" offers (b/w 0 to 100), reject "unfair" offers (below 0). Why not a
 
 
 29/06/22:
+
+
+1/7/22:
+- So, instead of using x1 and (x2-x1), use just (x2-x1) in Gridsearchcv? (since there is only one parameter, x1 goes into the error term: look up assumptions of logistic regression)
+- Try different solver for LogisticRegression? (is MLE relevant? idea is to implement mle through solver) (https://towardsdatascience.com/dont-sweat-the-solver-stuff-aea7cddc3451)
