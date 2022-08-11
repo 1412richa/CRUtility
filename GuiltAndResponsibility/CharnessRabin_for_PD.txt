@@ -1,0 +1,10 @@
+Charness-Rabin for prisoner's dilemma
+
+Assume 5 levels of alpha and beta to test.
+
+Level 0: participant has unknown alpha and beta, opponent has alpha = beta = 0. Search space: 5 x 5 values.
+Level 1: participant has unknown alpha and beta, opponent has same values. Search space: 5 x 5 values.
+Level 2: participant has unknown alpha and beta, opponent also has unknown alpha and beta values, which participant estimates. Search space: 5 x 5 x 5 x 5 values!
+Level 3: participant has unknown alpha and beta, opponent also has unknown alpha and beta values, which participant estimates, and opponent has estimates of participant's alpha and beta, which the participant also estimates. Search space: 5 x 5 x 5 x 5 x 5 x 5 values!
+
+Check which level fits best, taking into account N parameters to fit.
